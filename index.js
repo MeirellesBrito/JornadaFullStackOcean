@@ -16,7 +16,7 @@ async function main() {
 
   const app = express();
 
-  //JORNADA-FULL-STACK_OCEAN
+ 
   // O que vier no body da requisição, está em JSON
   app.use(express.json());
 
