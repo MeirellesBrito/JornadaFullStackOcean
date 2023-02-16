@@ -1,0 +1,55 @@
+https://www.youtube.com/playlist?list=PLzFYWfRVHp5Jx-iNLxhUydXwnYPqmV2MU
+https://www.diffchecker.com/
+
+
+
+Miro:
+https://miro.com/app/board/uXjVPr-4uM0=/?share_link_id=152694689598
+
+GitHub Paulo Salvatore
+https://github.com/paulosalvatore
+
+Playlist Backend - Canal PauloSalvatore
+https://www.youtube.com/playlist?list=PLzFYWfRVHp5Jx-iNLxhUydXwnYPqmV2MU
+
+Preparação para a trilha
+https://github.com/paulosalvatore/samsung-ocean-preparacao-trilhas
+
+Preparação para backend
+https://github.com/paulosalvatore/samsung-ocean-preparacao-trilhas/raw/main/Samsung%20Ocean%20-%20Prepara%C3%A7%C3%A3o%20(Trilha%20Backend).pdf
+
+GitPod
+https://gitpod.io/#https://github.com/paulosalvatore/nodejs-clean-template
+
+Site de curso do paulo
+https://paulosalvatore.com.br/
+---------------------------------------------------------------------------------------------
+Site do MongoDB
+https://account.mongodb.com/account/register
+admin | 5M21JQTUyIsn6SNp 
+mongodb+srv://admin:5M21JQTUyIsn6SNp@cluster0.shy3lrp.mongodb.net
+---------------------------------------------------------------------------------------------
+
+-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/ Comentario para ser estudado depois-/-/-/-/-/-/-//-/-/-//-/-/-/-/
+app.get | async | await |
+
+
+
+
+-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/ link de conhecimentos-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/-/-/-/-/-/
+
+https://virtualplanet.tech/
+https://www.spatial.io/
+https://www.casadocodigo.com.br/collections/livros-de-programacao
+https://promptbase.com/
+https://prompts.ai/
+https://promptomania.com/
+https://promptomania.com/midjourney-prompt-builder/
+https://github.com/paulosalvatore/jornada-fullstack-preparacao-crud 
+
+https://www.youtube.com/watch?v=_HGDTCQYoDc&list=PLzFYWfRVHp5L7d8IR--fNmNSTZ-iIAsI-&index=13
+
+https://2022.stateofjs.com/en-US/
+-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/
+
+                   

@@ -1,10 +1,11 @@
 import './App.css'
+import ReadAll from './components/ReadAll/ReadAll'
 
 function App() {
   return (
-   <div className='App'>
-    Hello, word JSX
-   </div>
+    <div className='App'>
+      <ReadAll />    
+    </div>
       
   )
 }
