@@ -5,3 +5,6 @@ git commit -m "Primeiro"
 git branch -M main
 git remote add origin git@github.com:MeirellesBrito/JornadaFullStackOcean.git
 git push -u origin main
+
+npm i
+npm create vite
