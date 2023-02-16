@@ -3,7 +3,8 @@ const { MongoClient, ObjectId } = require("mongodb");
 
 // localhost ou 127.0.0.1
 // const DB_URL = "mongodb://127.0.0.1:27017";
-const DB_URL = "mongodb+srv://admin:5M21JQTUyIsn6SNp@cluster0.shy3lrp.mongodb.net";
+const DB_URL =
+  "mongodb+srv://admin:fsdLuHLFo4KwOZ7N@cluster0.bndngam.mongodb.net";
 const DB_NAME = "ocean-bancodados-09-02-2023";
 
 async function main() {
@@ -16,7 +17,6 @@ async function main() {
 
   const app = express();
 
- 
   // O que vier no body da requisição, está em JSON
   app.use(express.json());
 
@@ -53,32 +53,36 @@ async function main() {
   app.post("/item", async function (req, res) {
     // console.log(req.body);
     const item = req.body;
-    await collection.insertOne(item)
+    await collection.insertOne(item);
     res.send(item);
   });
 
-
-  // Endpoin Update -> [put] /item/:id
+  // Endpoint Update -> [PUT] /item/:id
   app.put("/item/:id", async function (req, res) {
     const id = req.params.id;
     const body = req.body;
 
-//  console.log(id, body);
+    // console.log(id, body);
 
-    await collection.updateOne(
-      { _id: new ObjectId(id) },
-      { $set: body }
-    );
+    await collection.updateOne({ _id: new ObjectId(id) }, { $set: body });
 
     res.send(body);
   });
-  // Endpoint Delete - > [DELETE] /item/:id
-  //exercicio:
 
-  // -pesquisa sobre a operacao de remover itens
-  // -implementar o endpoint de delete
- //  -
-  
+  // Endpoint Delete -> [DELETE] /item/:id
+  // Exercício:
+  // - pesquisar sobre a operação de remover itens
+  // - implementar o endpoint de delete
+  // - realizar a operação de excluir item
+
+  app.delete("/item/:id", async function (req, res) {
+    const id = req.params.id;
+
+    await collection.deleteOne({ _id: new ObjectId(id) });
+
+    res.send("Registro removido com sucesso!");
+  });
+
   app.listen(3000);
 }
 

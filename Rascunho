@@ -1,0 +1,7 @@
+
+git init
+git add README.md
+git commit -m "Primeiro"
+git branch -M main
+git remote add git@github.com:MeirellesBrito/JornadaFullStackOcean.git
+git push -u origin main
