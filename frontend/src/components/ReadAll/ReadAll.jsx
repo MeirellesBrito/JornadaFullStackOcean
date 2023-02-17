@@ -1,3 +1,4 @@
+import "./ReadAll.css";
 import Card from "../Card.jsx/Card";
 
 function ReadAll() {
