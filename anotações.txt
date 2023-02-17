@@ -1,3 +1,12 @@
+-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/ PACOTES  -/-/-/-/-/-/-//-/-/-//-/-/-/-/
+01- npm install ou npm i
+02- npm install express ou npm i express
+03- npm install --save-dev nodemon
+04- npm install -D nodemon
+05- npm i --save-dev nodemon
+06- npm i -D nodemon
+
+
 https://www.youtube.com/playlist?list=PLzFYWfRVHp5Jx-iNLxhUydXwnYPqmV2MU
 https://www.diffchecker.com/
 

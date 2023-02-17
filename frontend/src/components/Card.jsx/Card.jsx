@@ -6,8 +6,13 @@ function Card(props) {
     // console.log(props);
     const item = props.item;
     return(
-       
+        
         <div className="card">
+            <header>
+                <button>Home</button>
+                <button>Criar</button>
+            </header>
+            
             <h1>{item.nome}</h1>
             <img src={item.imagemUrl}/>
         </div>        

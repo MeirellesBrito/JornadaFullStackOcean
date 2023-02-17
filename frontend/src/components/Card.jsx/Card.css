@@ -4,6 +4,9 @@
     margin: 2rem;
     box-shadow: 3px 3px white;
 }
+.card > header{
+    margin-left: 5px;
+}
 .card > h1{
     font-size: 2rem;
 }
