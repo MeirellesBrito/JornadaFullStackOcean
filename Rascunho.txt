@@ -8,3 +8,15 @@ git push -u origin main
 
 npm i
 npm create vite
+
+
+
+
+
+
+
+
+
+Galera vamos fazer aquele Network top.
+que segue lá ksksk 
+https://www.linkedin.com/in/fernando-meirelles-07a356250/
