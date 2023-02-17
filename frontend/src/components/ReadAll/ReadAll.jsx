@@ -1,5 +1,9 @@
+import Card from "../Card.jsx/Card";
+
 function ReadAll() {
-    return <div> Read all</div>
+    return <div className="ReadAll"> 
+        <Card/>
+    </div>
 }
 
 export default ReadAll;
