@@ -30,6 +30,7 @@ const items = [
         nome: "Jerry Smith",
         imagemUrl: "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
     },
+    
 ];
 
 /*

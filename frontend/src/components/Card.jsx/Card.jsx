@@ -8,15 +8,13 @@ function Card(props) {
     return(
         
         <div className="card">
-            <header>
-                <button>Home</button>
-                <button>Criar</button>
-            </header>
-            
+        
             <h1>{item.nome}</h1>
             <img src={item.imagemUrl}/>
-        </div>        
+        </div>     
+           
     )
-}
+    
 
+    }
 export default Card;

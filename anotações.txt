@@ -59,6 +59,10 @@ https://github.com/paulosalvatore/jornada-fullstack-preparacao-crud
 https://www.youtube.com/watch?v=_HGDTCQYoDc&list=PLzFYWfRVHp5L7d8IR--fNmNSTZ-iIAsI-&index=13
 
 https://2022.stateofjs.com/en-US/
+
+dsznajder.es7-react-js-snippets
+
+https://flexboxfroggy.com/
+https://tailwindcss.com/
 -/-/-/-/-/-/-//-/-/-//-/-/-/-/-/-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/-/-/-/-/-/-/-//-/-/-//-/-/-/-/-/
 
-                   
