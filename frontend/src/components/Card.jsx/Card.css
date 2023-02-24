@@ -13,6 +13,7 @@
   
   .card > h1 {
     font-size: 2rem;
+    color: white;
   }
   .card > img {
     border-radius: 1rem;
