@@ -40,7 +40,7 @@ mongodb+srv://admin:5M21JQTUyIsn6SNp@cluster0.shy3lrp.mongodb.net
 ---------------------------------------------------------------------------------------------
 
 -/-/-/-/-/-/-//-/-/-//-/-/-/-/-/ Comentario para ser estudado depois-/-/-/-/-/-/-//-/-/-//-/-/-/-/
-app.get | async | await |
+app.get | async | await | useEffect
 
 
 

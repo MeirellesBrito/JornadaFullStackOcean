@@ -49,28 +49,32 @@ const itemsMock = [
 // inserido dentro delas
 
 function ReadAll() {
-    // useState retorna 2 coisas:
-    // 1: o valor do estado
-    // 2: a função que atualiza o valor do estado
-    //   const estadoItems = useState([]);
-    //   const items = estadoItems[0];
-    //   const setItems = estadoItems[1];
-    const [items, setItems] = useState([]);
+  // useState retorna 2 coisas:
+  // 1: o valor do estado
+  // 2: a função que atualiza o valor do estado
+  //   const estadoItems = useState([]);
+  //   const items = estadoItems[0];
+  //   const setItems = estadoItems[1];
+  const [items, setItems] = useState([]);
 
+  // Realizar requisição para backend obtendo a lista de itens
   async function realizarRequisicao() {
-    // Realizar requisição para backend obtendo a lista de itens
-    //const url = "http://localhost:3000/item";
-    const url = "https://ocean-jornadafullstack.onrender.com/item";
+    // const url = "http://localhost:3000/item";
+    const url = "https://ocean-jornada-fullstack-fevereiro-23-jmkv.onrender.com/item";
     const response = await fetch(url);
     const data = await response.json();
 
-    setItems(data)
-    
+    setItems(data);
   }
-  useEffect(function(){
+
+  // UseEffect
+  // 1: uma função que será executada
+  // 2: uma lista de dependências
+  useEffect(function () {
     realizarRequisicao();
-  },[]);
-  
+  }, []);
+
+  //   console.log(67, items);
 
   return (
     <div className="ReadAll">
@@ -84,6 +88,3 @@ function ReadAll() {
 }
 
 export default ReadAll;
-
-
-
